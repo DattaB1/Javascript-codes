@@ -23,3 +23,14 @@ else if(per>=50 && per <60)
 {
   grade="Second class";
 }
+else if(per>=40 && per <50)
+{
+  grade="Pass class"
+}
+else
+{
+  grade="fail";
+}
+document.write("<table border=2 align=center width='300px' cellpadding=5><caption><h1>StudentMarksheet</h1></caption><tr><th>Roll No</th> <th>Student Name</th> <th>M1</th> <th>M2</th> <th>M3</th>  <th>Total</th> <th>Percantage</th>  <th>Grade</th> </tr>");
+
+document.write("<tr> <td>"+rollNo+"</td> <td>"+studuntName+"</td> <td>"+m1+"</td> <td>"+m2+"</td> <td>"+m3+"</td> <td>"+total+"</td> <td>"+per+"</td> <td>"+grade+"</td> </tr></table>")
